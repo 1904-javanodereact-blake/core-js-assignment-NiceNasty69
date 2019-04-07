@@ -17,4 +17,4 @@ let result;
  }
  return result;
 }
-console.log(fib(5));
+console.log(fib(24));

@@ -3,11 +3,11 @@ Define function: bubbleSort(numArray)
 Use the bubble sort algorithm to sort the array.
 Return the sorted array. */
 function bubbleSort(numArray) {
-    for(var i = 0; i < jagArr.length - 1; i++){
-        for(var n = 0; n < jagArr.length - 1; n++){
+    for(let i = 0; i < jagArr.length - 1; i++){
+        for(let n = 0; n < jagArr.length - 1; n++){
 
             if (jagArr[n] > jagArr[n+1]){
-                 var temp = jagArr[n]
+                 let temp = jagArr[n]
                  jagArr[n] = jagArr[n+1]
                  jagArr[n+1]= temp;
             }

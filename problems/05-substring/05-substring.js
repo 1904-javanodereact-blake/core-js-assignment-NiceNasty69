@@ -22,9 +22,9 @@ function substring(someStr, startIndex, endIndex) {
     return tempraryStr;
 }
 
-let tipStr = 0
+let tipStr = 'Shark'
 let start = 2
-let end = 6
+let end = 5
 let result = substring(tipStr, start, end);
 console.log(result);
 

@@ -3,18 +3,12 @@ Define function: bubbleSort(numArray)
 Use the bubble sort algorithm to sort the array.
 Return the sorted array. */
 function bubbleSort(numArray) {
-    //First For loop iteration to reach first elment jagArr n
-        for(var i = 0; i < jagArr.length - 1; i++){
-    //Second For loop iteration to reach second element jagArr n+1
-            for(var n = 0; n < jagArr.length - 1; n++){
-    //If statment to compare the elements
+
+        for(let i = 0; i < jagArr.length - 1; i++){
+            for(let n = 0; n < jagArr.length - 1; n++){
                 if (jagArr[n] > jagArr[n+1]){
-    //var temp is assigned the jagArr n position
-                    var temp = jagArr[n]
-    //jagArr is assigned the jagArr n+1 position
+                    let temp = jagArr[n]
                     jagArr[n] = jagArr[n+1]
-    //jagArr n+1 is assigned the temp position
-    //var temp is an empty place holder
                     jagArr[n+1]= temp;
                 }
             }
@@ -23,10 +17,8 @@ function bubbleSort(numArray) {
       
     }
     
-    //jagArr is the array being cycled through
+
     jagArr = [17,21,3,56,75,99,801];
-    //function call
     bubbleSort(jagArr);
-    //format for printing string
     console.log(`${jagArr}`);
     

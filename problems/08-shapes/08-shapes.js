@@ -20,6 +20,25 @@ Example for printShape("Diamond", 5, "*");
  ***
   * 
 */
+
 function printShape(shape, height, character) {
+  switch (shape){
+    case 'Square':
+          for (let i = 0; i < height; i++){
+            console.log('%'.repeat(height))
+          }
+          break;
+    case 'Triangle':
+          for ( let i = 0; i < height; i++){
+          console.log('$'.repeat(i + 1))
+          }        
+          break;
+  }
+ }
+  let myShape = 'Square'
+  let hi = 3
+  let symbol = '%'
+
+ printShape(myShape, hi, symbol);
   
-}
+
